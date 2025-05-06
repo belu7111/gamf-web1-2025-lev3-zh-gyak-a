@@ -1,0 +1,80 @@
+body {
+    background-color: #99f;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+#neptun {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+}
+
+
+#form-box h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    font-weight: bold;
+}
+
+form table {
+    border-collapse: collapse;
+}
+
+form td {
+    padding: 4px;
+    vertical-align: middle;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 160px;
+    padding: 2px 4px;
+    font-weight: normal;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 3px 8px;
+    font-weight: normal;
+}
+
+#image-box img {
+    height: 180px;
+    width: auto;
+    object-fit: contain;
+    border: 2px solid white;
+}
+
+#image-box {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+

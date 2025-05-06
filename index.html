@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Regisztráció</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="neptun">
+        <strong>Pál Bence - GHXXQA</strong> <!-- Írd ide a saját neved és Neptun kódod -->
+    </div>
+
+    <h1>WEB-PROGRAMOZÁS I</h1>
+
+    <div id="container">
+        <div id="form-box">
+            <h2>Regisztráció:</h2>
+            <form action="php/feldolgoz.php" method="POST" id="regForm">
+                <table>
+                    <tr><td>E-mail:</td><td><input type="text" name="email" id="email"></td></tr>
+                    <tr><td>Név:</td><td><input type="text" name="nev" id="nev"></td></tr>
+                    <tr><td>Jelszó:</td><td><input type="password" name="jelszo" id="jelszo"></td></tr>
+                    <tr><td>Kor:</td><td><input type="text" name="kor" id="kor"></td></tr>
+                    <tr>
+                        <td>Nem:</td>
+                        <td>
+                            <input type="radio" name="nem" value="Nő">Nő
+                            <input type="radio" name="nem" value="Férfi">Férfi
+                        </td>
+                    </tr>
+                    <tr><td colspan="2"><input type="submit" value="Küldés"></td></tr>
+                </table>
+            </form>
+        </div>
+
+        <div id="image-box">
+            <img src="images/kep.jpg" alt="kep" width="200">
+        </div>
+    </div>
+</body>
+</html>
